@@ -10,14 +10,14 @@
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
-				<category android:name="ouya.intent.category.GAME"/>
+				<category android:name="tv.ouya.intent.category.GAME" />
 			</intent-filter>
 			
 		</activity>
 		
 	</application>
 
-	<uses-sdk android:minSdkVersion="8"/>
+	<uses-sdk android:minSdkVersion="::ANDROID_MINIMUM_SDK_VERSION::" android:targetSdkVersion="::ANDROID_TARGET_SDK_VERSION::"/>
 	
 	<uses-permission android:name="android.permission.WAKE_LOCK" />
 	<uses-permission android:name="android.permission.INTERNET" />
